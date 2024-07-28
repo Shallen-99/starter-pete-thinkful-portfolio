@@ -16,16 +16,21 @@ h3 {
   text-align: center;
 }
 
+
 /* Header */
 header {
   text-align: center;
+  display:flex;
+  align-items:center;
+  margin:auto;
+  width:600px
 }
 
 /* Containers */
 div {
   background-color: #eae2b7;
-  margin: auto;
   width: 600px;
+  margin:auto;
 }
 
 article {
@@ -75,4 +80,15 @@ footer {
 /* Other page elements */
 hr {
   border: 1px solid black;
+}
+
+.group {
+  display:flex;
+  flex-direction: row;
+}
+
+.port {
+  display:flex;
+  align-items:baseline;
+  width:650px;
 }
